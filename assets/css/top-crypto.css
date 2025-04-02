@@ -1,0 +1,456 @@
+.sec-all-block{
+    margin-top: 198px;
+}
+.bread-caps{
+    padding-left: 30px;
+}
+.bread-caps ul{
+    gap: 10px 25px;
+}
+.bread-caps ul li, .bread-caps ul li a{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 107%;
+    text-align: left;
+    color: rgba(255,255,255,0.5);
+
+}
+.bread-caps ul li {
+    color: #FFFFFF;
+    position: relative;
+}
+.bread-caps ul li:before{
+    content: "/";
+    position: absolute;
+    right: -15px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 107%;
+    text-align: left;
+    color: rgba(255,255,255,0.5);
+}
+.bread-caps ul li:last-child:before{
+    display: none;
+}
+
+.comparison-reviews{
+    gap: 20px;
+    margin-top: 20px;
+}
+.comparison-reviews h3{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: left;
+}
+.comparison-left{
+    max-width: 880px;
+    width: 100%;
+    border: 1px solid #FFFFFF08;
+    background: #00000033;
+    gap: 35px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.comparison-flex{
+    gap: 30px;
+}
+.comparison-photo{
+    max-width: 228px;
+    width: 100%;
+    height: 228px;
+}
+.comparison-text {
+    max-width: 586px;
+    width: 100%;
+    gap: 20px;
+}
+.comparison-text h3{
+    max-width: 450px;
+    width: 100%;
+}
+.comparison-reviews .choose-crypto-text p{
+    font-size: 14px;
+    opacity: 1;
+    font-weight: 300;
+}
+.choose-crypto-text p a{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.choose-crypto-text p a:hover{
+    text-decoration: unset;
+}
+
+.top-crypto-box{
+    gap: 25px;
+}
+
+.top-crypto-box h4{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: left;
+}
+
+.top-crypto-text {
+    backdrop-filter: blur(10px);
+    background: #FFFFFF0D;
+    gap: 15px;
+    border-radius: 15px;
+    padding: 30px;
+}
+.top-crypto-text p{
+    opacity: 1;
+}
+.comparison-left .choose-crypto-text:after {
+    width: 96px;
+    height: 104px;
+}
+
+.next-article{
+    margin-top: 20px;
+    gap: 10px;
+}
+.next-article p{
+    opacity: 0.50;
+}
+.next-article-href{
+    gap: 10px;
+    background: linear-gradient(90deg, #DCE35B 0%, #45B649 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+}
+
+.arrow-top-gradient{
+    content: url("../img/icon/arrow-top-gradient.svg");
+    width: 14px;
+    height: 14px;
+    display: flex;
+}
+
+.crypto-style-logos{
+    border: 1px solid #FFFFFF1A;
+    background: #FFFFFF0D;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.comparison-right{
+    max-width: 300px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border: 1px solid #FFFFFF08;
+    background: #00000033;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+.comparison-right h4{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+.comparison-right h4 span{
+    background: linear-gradient(90deg, #DCE35B 0%, #45B649 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.comparison-crypto .crypto-price{
+    gap: 10px;
+}
+.comparison-crypto-logo{
+    gap: 12px;
+}
+
+.comparison-crypto-logo img{
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+}
+.comparison-crypto-logo span{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+}
+.comparison-crypto .btn-review{
+    width: 100%;
+    margin-top: 12px;
+}
+.icon-case{
+    content: url("../img/icon/case.svg");
+    width: 15px;
+    height: 15px;
+    display: flex;
+}
+
+
+
+.top-crypto-photo img{
+    border-radius: 15px;
+}
+
+
+.icon-bonus{
+    content: url("../img/icon/bonus-black.svg");
+    width: 14px;
+    height: 14px;
+}
+.comparison-text .btn-arrow{
+    width: max-content;
+}
+.official-website{
+    gap: 10px;
+}
+.official-website a{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 160%;
+
+}
+.text-white{
+    gap: 25px;
+}
+.text-white p{
+    opacity: 1;
+}
+.top-crypto-box .btn-review{
+    margin: 0;
+}
+.parameters-table{
+    border: 1px solid #FFFFFF0D;
+    backdrop-filter: blur(10px);
+    background: #00000033;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.parameters-table table tr td{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 19px 0;
+    border-top: 1px solid #FFFFFF08;
+}
+.parameters-table table tr td:first-child{
+    padding-left: 50px;
+    width: 410px;
+}
+.parameters-table table tr td:last-child{
+    padding-right: 50px;
+}
+.parameters-table table tr:first-child td{
+ border-top: unset;
+}
+
+.arrow-gradient{
+    content: url("../img/icon/arrow-gradient.svg");
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+.exchanges-price{
+    gap: 15px;
+}
+
+
+.types-crypto-bonuses{
+    margin-top: 5px;
+}
+.types-crypto-cnt{
+    margin-top: 25px;
+    gap: 20px;
+}
+.types-crypto-box{
+    width: calc(33.333333% - 14px);
+    border: 1px solid #FFFFFF0D;
+    background: #00000033;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+
+}
+.types-crypto-name{
+    gap: 15px;
+}
+.types-crypto-name h4{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: left;
+}
+.types-crypto-box p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.top-crypto-box .exchanges-table {
+    margin-top: 0;
+}
+
+.top-crypto-box .exchanges-table thead tr th {
+    vertical-align: middle;
+}
+.top-crypto-box .exchanges-table tbody td:first-child {
+    padding-left: 30px;
+}
+.top-crypto-box .exchanges-table tbody td:last-child {
+    padding-right: 30px;
+}
+.top-crypto-box .exchanges-table tbody td:nth-child(4){
+    width: 100px;
+}
+.top-crypto-box .exchanges-table tbody td:nth-child(5){
+    width: 100px;
+}
+.top-crypto-box .exchanges-table tbody td:nth-child(6){
+    width: 120px;
+}
+.top-crypto-box .exchanges-table thead tr th:last-child {
+    padding-right: 30px;
+    width: 89px;
+}
+.top-crypto-box .exchanges-table tbody td span {
+    font-size: 12px;
+}
+.top-crypto-box .exchanges-crypto a {
+    font-size: 12px;
+}
+
+
+@media (max-width: 1199px){
+    .comparison-reviews h3 {
+        font-size: 20px;
+        line-height: 129%;
+    }
+    .comparison-left {
+        gap: 25px;
+        padding: 20px;
+    }
+    .comparison-right {
+        padding: 20px;
+    }
+    .sec-all-block {
+        margin-top: 160px;
+    }
+    .types-crypto-box {
+        width: calc(50% - 14px);
+    }
+    .comparison-hidden{
+        overflow: hidden;
+    }
+    .top-crypto-box .table-scroll{
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    }
+    .top-crypto-box .table-scroll table{
+        width: 850px;
+    }
+}
+@media (max-width: 991px){
+    .sec-all-block {
+        margin-top: 124px;
+    }
+    .bread-caps {
+        padding-left: 0;
+    }
+    .bread-caps ul{
+        flex-wrap: wrap;
+    }
+    .comparison-reviews {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .comparison-right {
+        max-width: 100%;
+    }
+    .comparison-left{
+        max-width: 100%;
+    }
+    .comparison-flex {
+        flex-direction: column;
+    }
+    .comparison-photo {
+        max-width: 300px;
+        width: 100%;
+    }
+    .comparison-photo img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .comparison-reviews h3 {
+        font-size: 18px;
+        line-height: 129%;
+    }
+    .comparison-text h3 {
+        max-width: 312px;
+    }
+    .choose-crypto-text {
+        padding: 20px;
+    }
+    .top-crypto-text {
+        padding: 20px;
+    }
+    .top-crypto-box .table-scroll table{
+        width: 900px;
+    }
+    .next-article {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 850px){
+    .top-crypto-box .table-scroll table{
+        width: 820px;
+    }
+}
+@media (max-width: 620px){
+    .types-crypto-cnt {
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .types-crypto-box {
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    .official-website {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .parameters-table table tr td:first-child {
+        padding-left: 25px;
+    }
+    .parameters-table table tr td:last-child {
+        padding-right: 25px;
+    }
+    .parameters-table {
+        overflow-x: scroll;
+    }
+    .parameters-table table{
+        width: 600px;
+    }
+    .parameters-table {
+        border-radius: 15px;
+    }
+}
