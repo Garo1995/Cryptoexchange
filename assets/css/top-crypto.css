@@ -471,10 +471,14 @@
     }
     .parameters-table {
         border-radius: 15px;
-        margin-left: -8px;
-        width: 105%;
     }
     .parameters-table table tr td:last-child {
         text-align: right;
+    }
+}
+@media (max-width: 354px){
+    .parameters-table table tr td:first-child {
+        padding-left: 12px;
+        width: 190px;
     }
 }
