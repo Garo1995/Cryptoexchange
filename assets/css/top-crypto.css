@@ -418,6 +418,13 @@
     .next-article {
         flex-wrap: wrap;
     }
+    .parameters-table table tr td {
+        font-size: 14px;
+        padding: 12px 0;
+    }
+    .parameters-table table tr td:first-child {
+        padding-left: 24px;
+    }
 }
 @media (max-width: 850px){
     .top-crypto-box .table-scroll table{
@@ -444,13 +451,30 @@
     .parameters-table table tr td:last-child {
         padding-right: 25px;
     }
+
     .parameters-table {
-        overflow-x: scroll;
+        border-radius: 15px;
     }
-    .parameters-table table{
-        width: 600px;
+    .comparison-left {
+        padding: 20px 15px;
+    }
+    .parameters-table table tr td:first-child {
+        padding-left: 15px;
+        width: auto;
+    }
+    .parameters-table table tr td {
+        font-size: 11px;
+        padding: 10px 0;
+    }
+    .parameters-table table tr td:last-child {
+        padding-right: 12px;
     }
     .parameters-table {
         border-radius: 15px;
+        margin-left: -8px;
+        width: 105%;
+    }
+    .parameters-table table tr td:last-child {
+        text-align: right;
     }
 }
